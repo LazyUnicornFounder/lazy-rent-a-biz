@@ -20,10 +20,7 @@ const Header = () => {
             Pricing
           </a>
         </nav>
-        <div className="flex items-center gap-3">
-          <Button variant="ghost" size="sm" asChild>
-            <Link to="/login">Log in</Link>
-          </Button>
+        <div className="flex items-center">
           <Button size="sm" className="bg-primary hover:bg-primary-hover" asChild>
             <Link to="/businesses">Browse Businesses</Link>
           </Button>

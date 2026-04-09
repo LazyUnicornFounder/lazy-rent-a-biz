@@ -21,9 +21,6 @@ const Footer = () => {
             <a href="#how-it-works" className="hover:text-foreground transition-colors">
               How It Works
             </a>
-            <Link to="/login" className="hover:text-foreground transition-colors">
-              Log In
-            </Link>
           </nav>
         </div>
         <div className="mt-12 text-xs text-text-muted">
