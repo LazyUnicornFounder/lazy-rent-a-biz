@@ -40,8 +40,8 @@ const BusinessDetail = () => {
           </Link>
 
           <div className="flex flex-col md:flex-row gap-8 items-start">
-            <div className="w-full md:w-1/2 aspect-video rounded-xl bg-muted flex items-center justify-center">
-              <img src={biz.imageUrl} alt={biz.name} className="h-16 w-16 opacity-30" />
+            <div className="w-full md:w-1/2 aspect-video rounded-xl bg-muted overflow-hidden">
+              <img src={biz.imageUrl} alt={biz.name} className="h-full w-full object-cover" loading="lazy" width={800} height={512} />
             </div>
             <div className="flex-1">
               <span className="text-xs font-medium text-text-muted uppercase tracking-wider">{biz.category}</span>

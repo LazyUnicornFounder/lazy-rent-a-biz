@@ -21,8 +21,8 @@ const CatalogPreview = () => {
               to={`/businesses/${biz.slug}`}
               className="group rounded-xl border border-border bg-card p-5 shadow-subtle transition-shadow hover:shadow-card"
             >
-              <div className="aspect-video rounded-lg bg-muted flex items-center justify-center overflow-hidden">
-                <img src={biz.imageUrl} alt={biz.name} className="h-12 w-12 opacity-30" />
+              <div className="aspect-video rounded-lg bg-muted overflow-hidden">
+                <img src={biz.imageUrl} alt={biz.name} className="h-full w-full object-cover" loading="lazy" width={800} height={512} />
               </div>
               <div className="mt-4">
                 <span className="text-xs font-medium text-text-muted uppercase tracking-wider">
