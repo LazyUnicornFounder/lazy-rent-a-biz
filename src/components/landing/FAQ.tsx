@@ -12,7 +12,7 @@ const faqs = [
   },
   {
     q: "Can I customize it?",
-    a: "Yes. On the Owner and Portfolio tiers, you can add your own logo, brand colors, custom domain, and business name. Your customers will never know we exist.",
+    a: "Yes. On the Owner and Portfolio tiers, you can add your own logo, brand colors, custom domain, and business name.",
   },
   {
     q: "What happens if I cancel?",
