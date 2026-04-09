@@ -36,7 +36,6 @@ const WhyRent = () => {
                 "Live today, not in 6 months",
                 "From $99/mo — cheaper than one freelancer hour",
                 "We handle hosting, updates, and AI costs",
-                "Proven products with real demand",
                 "Cancel anytime, no lock-in",
               ].map((item) => (
                 <li key={item} className="flex items-start gap-3 text-foreground">
