@@ -1,3 +1,10 @@
+import lazymoodImg from "@/assets/lazymood.jpg";
+import lazythumbsImg from "@/assets/lazythumbs.jpg";
+import lazylogoImg from "@/assets/lazylogo.jpg";
+import lazyupscaleImg from "@/assets/lazyupscale.jpg";
+import lazytext3dImg from "@/assets/lazytext3d.jpg";
+import lazysdrImg from "@/assets/lazysdr.jpg";
+
 export interface Business {
   slug: string;
   name: string;
@@ -20,7 +27,7 @@ export const businesses: Business[] = [
     operatorPrice: 99,
     ownerPrice: 299,
     portfolioPrice: 799,
-    imageUrl: "/placeholder.svg",
+    imageUrl: lazymoodImg,
   },
   {
     slug: "lazythumbs",
@@ -31,7 +38,7 @@ export const businesses: Business[] = [
     operatorPrice: 99,
     ownerPrice: 299,
     portfolioPrice: 799,
-    imageUrl: "/placeholder.svg",
+    imageUrl: lazythumbsImg,
   },
   {
     slug: "lazylogo",
@@ -42,7 +49,7 @@ export const businesses: Business[] = [
     operatorPrice: 99,
     ownerPrice: 299,
     portfolioPrice: 799,
-    imageUrl: "/placeholder.svg",
+    imageUrl: lazylogoImg,
   },
   {
     slug: "lazyupscale",
@@ -53,7 +60,7 @@ export const businesses: Business[] = [
     operatorPrice: 99,
     ownerPrice: 299,
     portfolioPrice: 799,
-    imageUrl: "/placeholder.svg",
+    imageUrl: lazyupscaleImg,
   },
   {
     slug: "lazytext3d",
@@ -64,7 +71,7 @@ export const businesses: Business[] = [
     operatorPrice: 99,
     ownerPrice: 299,
     portfolioPrice: 799,
-    imageUrl: "/placeholder.svg",
+    imageUrl: lazytext3dImg,
   },
   {
     slug: "lazysdr",
@@ -75,7 +82,7 @@ export const businesses: Business[] = [
     operatorPrice: 149,
     ownerPrice: 399,
     portfolioPrice: 999,
-    imageUrl: "/placeholder.svg",
+    imageUrl: lazysdrImg,
   },
 ];
 
