@@ -65,11 +65,6 @@ const PricingSection = () => {
                   : "border border-border bg-card"
               }`}
             >
-              {tier.featured && (
-                <span className="inline-block rounded-full bg-primary/10 px-3 py-1 text-xs font-medium text-primary mb-4">
-                  Most popular
-                </span>
-              )}
               <h3 className="font-serif text-2xl text-foreground">{tier.name}</h3>
               <p className="mt-1 text-sm text-text-secondary">{tier.description}</p>
               <div className="mt-6">
