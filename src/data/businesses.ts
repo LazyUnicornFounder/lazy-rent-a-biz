@@ -1,4 +1,4 @@
-import lazymoodImg from "@/assets/lazymood.jpg";
+
 import lazythumbsImg from "@/assets/lazythumbs.jpg";
 import lazylogoImg from "@/assets/lazylogo.jpg";
 import lazyupscaleImg from "@/assets/lazyupscale.jpg";
@@ -170,17 +170,6 @@ export const businesses: Business[] = [
     ownerPrice: 399,
     portfolioPrice: 999,
     imageUrl: lazySandsImg,
-  },
-  {
-    slug: "lazy-tones",
-    name: "Lazy Tones",
-    tagline: "Mood boards in 60 seconds",
-    description: "Operators sell lightning-fast mood board generation — describe a vibe, get a curated board with colors, textures, and inspiration in under a minute. Perfect for designers and creatives on a deadline.",
-    category: "Image AI",
-    operatorPrice: 99,
-    ownerPrice: 299,
-    portfolioPrice: 799,
-    imageUrl: lazyTonesImg,
   },
   {
     slug: "lazy-unicorn",
