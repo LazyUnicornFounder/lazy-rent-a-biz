@@ -22,10 +22,6 @@ const faqs = [
     q: "Who owns the customers?",
     a: "You do. Your customers pay you directly through your own Polar account. You own the relationship, the revenue, and the email list.",
   },
-  {
-    q: "Can I compete with other operators?",
-    a: "On the Portfolio tier, you get niche protection — we won't rent the same business to someone targeting the exact same audience in your geography. On lower tiers, multiple operators can run the same business.",
-  },
 ];
 
 const FAQ = () => {
