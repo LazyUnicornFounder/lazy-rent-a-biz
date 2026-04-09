@@ -29,15 +29,15 @@ export interface Business {
 
 export const businesses: Business[] = [
   {
-    slug: "lazymood",
-    name: "LazyMood",
-    tagline: "AI mood board generator for designers and creatives",
-    description: "Your operators sell AI-generated mood boards to interior designers, brand agencies, and content creators. Customers describe a vibe, get a polished board in seconds.",
+    slug: "lazytones",
+    name: "LazyTones",
+    tagline: "Mood boards in 60 seconds",
+    description: "Your operators sell lightning-fast mood board generation — describe a vibe, get a curated board with colors, textures, and inspiration in under a minute. Perfect for designers and creatives on a deadline.",
     category: "Image AI",
     operatorPrice: 99,
     ownerPrice: 299,
     portfolioPrice: 799,
-    imageUrl: lazymoodImg,
+    imageUrl: lazyTonesImg,
   },
   {
     slug: "lazythumbs",
