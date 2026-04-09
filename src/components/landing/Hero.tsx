@@ -5,6 +5,11 @@ import { ArrowRight } from "lucide-react";
 const Hero = () => {
   return (
     <section className="py-24 md:py-32">
+      <div className="container flex justify-center mb-8">
+        <span className="inline-flex items-center gap-1.5 rounded-full border border-border bg-card px-4 py-1.5 text-xs font-medium text-text-muted">
+          Made for <span className="text-foreground font-semibold">Lovable</span> &amp; <span className="text-foreground font-semibold">Polar</span>
+        </span>
+      </div>
       <div className="container max-w-3xl text-center">
         <h1 className="font-serif text-4xl md:text-6xl leading-tight tracking-tight text-foreground">
           Rent a business.{" "}
