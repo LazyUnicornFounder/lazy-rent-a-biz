@@ -19,6 +19,9 @@ const Header = () => {
           <a href="#pricing" className="text-sm text-text-secondary hover:text-foreground transition-colors">
             Pricing
           </a>
+          <a href="#about" className="text-sm text-text-secondary hover:text-foreground transition-colors">
+            About
+          </a>
         </nav>
         <div className="flex items-center">
           <Button size="sm" className="bg-primary hover:bg-primary-hover" asChild>
