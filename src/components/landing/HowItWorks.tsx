@@ -25,13 +25,11 @@ const HowItWorks = () => {
   return (
     <section id="how-it-works" className="py-24 border-t border-border">
       <div className="container max-w-5xl">
-        <h2 className="font-serif text-3xl md:text-4xl text-center text-foreground">
-          Three steps to your own AI business
-        </h2>
-        <div className="mt-16 grid gap-12 md:grid-cols-3">
+        <div className="grid gap-12 md:grid-cols-3">
           {steps.map((step, i) => (
             <div key={i} className="text-center">
-              <div className="mx-auto flex h-14 w-14 items-center justify-center rounded-2xl bg-primary/10">
+              <span className="font-serif text-5xl md:text-6xl font-bold text-primary/20">{i + 1}</span>
+              <div className="mt-4 mx-auto flex h-14 w-14 items-center justify-center rounded-2xl bg-primary/10">
                 <step.icon className="h-6 w-6 text-primary" />
               </div>
               <h3 className="mt-6 font-serif text-xl text-foreground">{step.title}</h3>
